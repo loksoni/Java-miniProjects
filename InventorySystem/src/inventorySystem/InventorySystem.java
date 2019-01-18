@@ -53,6 +53,7 @@ public class InventorySystem {
 			title = ob.next();
 			v[i].addTitle(title);
 		}
+		n--;
 		while(ch!=false){
 			System.out.println("1. Add title ");
 			System.out.println("2. Check a video out ");
